@@ -1,6 +1,6 @@
 # Node JS - Standard Microservice Prototypes - RestAPI Services
 
-Run employee-microservice-api-node.js 
+Run microservice-api-node.js 
 
 For information on using Node.js, see the [Node.js website][].
 
