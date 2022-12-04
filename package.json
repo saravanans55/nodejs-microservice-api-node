@@ -1,5 +1,38 @@
 {
-  "dependencies": {
+  "name": "nodejs-microservice-api-node",
+  "description": "Standard Prototype for Node JS Microservice RestAPI Service",
+  "version": "1.0.0",
+  "author": "Saravanan S <saravanans.design@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "Node JS",
+    "Microservice",
+    "RestAPI",
+    "Backend",
+    "Web Application",
+    "Example Microservice",
+    "Node JS Prototype"
+  ],
+  "main": "microservice-api-node.js",
+  "devDependencies": {
     "express": "^4.18.2"
-  }
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^4.12.1"
+  },
+  "scripts": {
+    "start": "node microservice-api-node.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saravanans55/nodejs-microservice-api-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/saravanans55/nodejs-microservice-api-node/issues"
+  },
+  "homepage": "https://github.com/saravanans55/nodejs-microservice-api-node#readme"
 }
